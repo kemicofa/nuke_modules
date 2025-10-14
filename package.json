@@ -1,0 +1,59 @@
+{
+  "name": "@kemicofa/nuke_modules",
+  "version": "0.0.1",
+  "description": "A script to nuke all node_modules starting from your current working directory.",
+  "license": "MIT",
+  "author": "kemicofa",
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "bin": {
+    "nuke_modules": "./dist/index.mjs"
+  },
+  "scripts": {
+    "build": "pkgroll --minify --clean-dist"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "@types/prompts": "^2.4.9",
+    "@types/yargs": "^17.0.33",
+    "pkgroll": "^2.18.1",
+    "prompts": "^2.4.2",
+    "yargs": "^18.0.0",
+    "zx": "^8.8.4"
+  },
+  "engines": {
+    "node": "24",
+    "npm": "11"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "nodejs",
+    "command-line",
+    "cleanup",
+    "clean",
+    "prune",
+    "purge",
+    "delete",
+    "remove",
+    "nuke",
+    "node-modules",
+    "node_modules",
+    "recursive",
+    "monorepo",
+    "workspaces",
+    "npm",
+    "pnpm",
+    "yarn",
+    "disk-space",
+    "cache",
+    "glob",
+    "ignore",
+    "dry-run",
+    "confirm",
+    "yes-flag",
+    "force",
+    "safe",
+    "fast"
+  ]
+}
